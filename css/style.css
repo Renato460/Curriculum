@@ -5,20 +5,11 @@ body {
     font-family: 'Secular One', sans-serif;
 }
 
-#menu{
-    height: 100vh;
+.row{
+	margin: 0;
 }
-
-.boton-principal{
-    /*height: 11em;*/
-    text-transform: uppercase;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    outline: none;
-	/*margin: 1em 0.8em;*/
-	margin: auto;
-    color: white;
+#inicio{
+    height: 100vh;
 }
 
 .opcion{
@@ -28,7 +19,11 @@ body {
 }
 
 .boton-principal {
-	height: 32px;
+	text-transform: uppercase;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
 	color: white;
 	transition: all 0.5s;
 	position: relative;
@@ -70,16 +65,27 @@ body {
 	transform: scale(1,1);
 }
 
-.menuOpciones{
-	height: 80%;
+#menu{
+	height: 80vh;
+	padding-top: 4rem;
 }
 
 #redes{
-
+	height: 20vh;
 }
 
-.iconoRedes{
+.linkedin{
 	stroke: white;
 	stroke-width: 16px;
 	fill: none;
+}
+.github{
+	stroke: white;
+	stroke-width: 10px;
+	fill: none;
+}
+
+svg{
+	height: 3em;
+	width: 3em;
 }
